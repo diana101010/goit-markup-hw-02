@@ -5,10 +5,14 @@
   --buttons-color: #4d5ae5;
   --paragrah-font-family: "Raleway", sans-serif;
   --text-font-family: "Roboto", sans-serif;
+  --background-color:#FFF; 
+  --background-color-button:#F4F4FD; 
 }
 
 body {
   font-family: var(--text-font-family);
+  color: var(--contacts-color); 
+  background-color: var(--background-color);
 }
 
 a {
@@ -18,13 +22,10 @@ a {
 ul {
   list-style-type: none;
 }
-.logo-web {
-  color: var(--buttons-color);
-}
 
 .logo {
-  color: var(--brand-color);
-  font-family: Raleway;
+  color: var(--buttons-color);
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -33,17 +34,27 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 }
 
+.logo-link{
+  text-decoration: none;
+}
+
 
 .header-list {
-  color:var(--contacts-color);
+  color:var(--brand-color);
   font-family: Roboto;
+  font-weight: 500;
   font-size: 16px
   line-height: 1.5; 
   letter-spacing: 0.32px;
-  text-decoration: none;
   list-style-type: none;
 }
 
+.header-list:hover {
+  color: #404bbf; 
+}
+.header-list:focus{
+  color:#404bbf ;
+}
 .header-contacts{
     color:var(--contacts-color);
     font-family: Roboto;
@@ -51,6 +62,14 @@ font-size: 16px;
 font-style: normal;
 line-height: 1.5;
 letter-spacing: 0.32px;
+}
+
+.header-contacts:hover{
+  color: #404bbf;
+}
+
+.header-contacts:focus{
+  color: #404bbf ;
 }
 
 .footer {
@@ -63,24 +82,29 @@ letter-spacing: 0.32px;
 
 .title{
     color:#FFF;
+    background-color:#2E2F42; 
 text-align: center;
-font-family: Roboto;
+font-family: Roboto, sans-serif; 
 font-size: 56px;
 font-weight: 700;
 line-height: 1.07; 
 letter-spacing: 1.12px;
-background-color:#2E2F42 ;
+
 }
 
 .button-title{
   color: #FFF;
   cursor: pointer;
-border-radius: 4px;
 background: var(--buttons-color);
-box-shadow: 0px 4px 4px 0px 
+font-family: Roboto, sans-serif;
+font-weight: 500; 
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.64px;  
 }
 
 .button-title:hover{ background-color: #404BBF ;}
+.button-title: :focus{background-color: #404BBF;}
 
 
 .subtitles{
@@ -106,9 +130,14 @@ text-align: center;
 font-family: Roboto;
 font-size: 36px;
 font-weight: 700;
-line-height: 1.1;
+line-height: 1.11;
 letter-spacing: 0.72px;
 text-transform: capitalize;
+background-color: #FFF;
+}
+
+.chapters-list{
+  background-color: #F4F4FD ;
 }
 
 .name-teamcard{
@@ -116,7 +145,7 @@ text-transform: capitalize;
 font-family: Roboto;
 font-size: 20px;
 font-weight: 500;
-line-height: 1.2; /* 120% */
+line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .name-teamcard-centered {
@@ -131,14 +160,39 @@ line-height: 1.2; /* 120% */
   letter-spacing: 0.32px;
 }
 
-.portofolio-buttons {
+.portfolio-buttons {
   color: var(--buttons-color);
+  font-family: Roboto, sans-serif;
   cursor: pointer;
-  background-color: #f4f4fd;
-  border: 1px solid #e7e9fc;
+  background-color: var(--background-color-button);
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+
 }
 
-.portofolio-buttons:hover {
+.portfolio-buttons:hover {
   color: #fff;
   background-color: #404bbf;
+}
+
+.portfolio-buttons:focus{
+  background-color: #404bbf;
+  color: #FFF;
+}
+
+.list-functions{
+  list-style: none;
+  text-decoration: none;
+}
+
+.functions-paragraphs{
+  color: var(--contacts-color);
+font-family: Roboto, sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.32px;
 }
