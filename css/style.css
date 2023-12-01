@@ -2,7 +2,7 @@
   --brand-color: #2e2f42;
   --contacts-color: #434455;
   --footer-color: #f4f4fd;
-  --buttons-color:#4D5AE5;
+  --buttons-color: #4d5ae5;
   --paragrah-font-family: "Raleway", sans-serif;
   --text-font-family: "Roboto", sans-serif;
 }
@@ -18,8 +18,21 @@ a {
 ul {
   list-style-type: none;
 }
-.logo {
+.logo-web {
+  color: var(--buttons-color);
 }
+
+.logo {
+  color: var(--brand-color);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+
 
 .header-list {
   color:var(--contacts-color);
@@ -60,13 +73,14 @@ background-color:#2E2F42 ;
 }
 
 .button-title{
+  color: #FFF;
+  cursor: pointer;
 border-radius: 4px;
 background: var(--buttons-color);
 box-shadow: 0px 4px 4px 0px 
-rgba(0, 0,0, 15)
 }
 
-.button-title:hover{ color: aqua ;}
+.button-title:hover{ background-color: #404BBF ;}
 
 
 .subtitles{
@@ -103,27 +117,28 @@ font-family: Roboto;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2; /* 120% */
-letter-spacing: 0.4px;
+  letter-spacing: 0.4px;
 }
-.name-teamcard-centered{
-    text-align: center;
+.name-teamcard-centered {
+  text-align: center;
 }
-.positions-teamcard{
-    color: var(--contacts-color);
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.32px;
-}
-
-.portofolio-buttons{
-    color: var(--buttons-color);
-    background-color: #F4F4FD;
-    border: 1px solid #E7E9FC;
+.positions-teamcard {
+  color: var(--contacts-color);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
-.portofolio-buttons:hover{
-    color:#FFF ;
-    background-color: #404BBF;
+.portofolio-buttons {
+  color: var(--buttons-color);
+  cursor: pointer;
+  background-color: #f4f4fd;
+  border: 1px solid #e7e9fc;
+}
+
+.portofolio-buttons:hover {
+  color: #fff;
+  background-color: #404bbf;
 }
