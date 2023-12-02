@@ -178,7 +178,7 @@ body {
   cursor: pointer;
 }
 
-buttons:hover {
+.buttons:hover {
   color: #ffffffff;
   background-color: #404bbf;
 }
@@ -207,4 +207,8 @@ buttons:hover {
 
 .address {
   font-style: normal;
+}
+
+.back-title {
+  background-color: #fff;
 }
