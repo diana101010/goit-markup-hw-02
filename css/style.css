@@ -27,6 +27,14 @@ body {
   text-transform: uppercase;
 }
 
+.logo-light {
+  color: #f4f4f4fd;
+}
+
+.logo-dark {
+  color: var(--brand-color);
+}
+
 .link {
   text-decoration: none;
 }
@@ -194,14 +202,6 @@ buttons:hover {
 
 .footer-background {
   background-color: var(--brand-color);
-}
-
-.logo-light {
-  color: #f4f4f4fd;
-}
-
-.logo-dark {
-  color: var(--brand-color);
 }
 
 .address {
