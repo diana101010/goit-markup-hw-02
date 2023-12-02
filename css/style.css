@@ -15,14 +15,6 @@ body {
   background-color: var(--background-color);
 }
 
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style-type: none;
-}
-
 .logo {
   color: var(--buttons-color);
   font-family: Raleway, sans-serif;
@@ -41,7 +33,6 @@ ul {
 .list {
   list-style: none;
 }
-
 .header-list {
   color: var(--brand-color);
   font-family: Roboto, sans-serif;
