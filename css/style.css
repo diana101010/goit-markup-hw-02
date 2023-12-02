@@ -202,3 +202,7 @@ body {
 .logo-dark {
   color: var(--brand-color);
 }
+
+.address {
+  font-style: normal;
+}
