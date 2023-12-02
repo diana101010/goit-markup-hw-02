@@ -99,7 +99,7 @@ body {
 .button-title:hover {
   background-color: #404bbf;
 }
-.button-title: :focus {
+.button-title:focus {
   background-color: #404bbf;
 }
 
@@ -122,11 +122,12 @@ body {
 
 .chapters-title {
   color: var(--brand-color);
-  text-align: center;
-  font-family: Roboto;
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: Roboto;
+  font-weight: 700;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   background-color: #ffffffff;
