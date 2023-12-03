@@ -208,3 +208,7 @@ body {
 .address {
   font-style: normal;
 }
+
+.white {
+  background-color: #fff;
+}
